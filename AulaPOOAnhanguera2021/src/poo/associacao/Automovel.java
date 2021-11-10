@@ -2,8 +2,7 @@
 package poo.associacao;
 
 public class Automovel {
-    private String modelo;
-    private String placa;
+    protected String placa;
     private Motor motor;
     private Pessoa dono;
 
@@ -27,14 +26,6 @@ public class Automovel {
         else{
             motor.setFatorPotencia(motor.getFatorPotencia() - 5);
         }
-    }
-
-    public String getModelo() {
-        return modelo;
-    }
-
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
     }
 
     public String getPlaca() {
