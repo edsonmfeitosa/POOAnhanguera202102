@@ -7,8 +7,8 @@ import poo.associacao.Pessoa;
 public class TesteHeranca {
     public static void main(String[] args) {
         
-        Automovel a1 = new Automovel();
-        a1.setPlaca("WWW 1122");
+        //Automovel a1 = new Automovel();
+        //a1.setPlaca("WWW 1122");
         
         Idea idea = new Idea();
         idea.setPlaca("QQW 1234");
@@ -28,6 +28,8 @@ public class TesteHeranca {
         Pessoa pes = new Pessoa("Joaquim");
         pes.setAutomoveis(ferrari);
         pes.setAutomoveis(idea);
-        pes.setAutomoveis(a1);
+        //pes.setAutomoveis(a1);
+        
+        ferrari.ligarArCondicionado();
     }
 }

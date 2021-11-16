@@ -1,7 +1,7 @@
 
 package poo.associacao;
 
-public class Automovel {
+public abstract class Automovel {
     protected String placa;
     private Motor motor;
     private Pessoa dono;
